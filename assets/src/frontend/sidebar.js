@@ -6,7 +6,7 @@ export default class SideBar extends React.Component {
     super(props);
   }
   render() {
-    return (<div>
+    return (
         <aside className="bg-black aside-md hidden-print hidden-xs" id="nav">          
           <section className="vbox">
             <section className="w-f scrollable">
@@ -442,6 +442,6 @@ export default class SideBar extends React.Component {
             </footer>
           </section>
         </aside>
-    </div>);
+    );
   }
 }
